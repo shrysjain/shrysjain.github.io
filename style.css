@@ -670,8 +670,8 @@ p {
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 95%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 95% !important;
 }
