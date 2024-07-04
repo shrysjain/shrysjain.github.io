@@ -12,6 +12,12 @@
   --tw-content: "";
 }
 
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
 html,
 :host {
   line-height: 1.5;
@@ -663,13 +669,9 @@ p {
   }
 }
 
-.vertical-center {
+.container {
   display: flex;
+  align-items: center;
   justify-content: center;
-  padding-top: 15%;
-  min-height: 100vh;
-}
-
-.vertical-center .mx-auto {
-  margin: 0;
+  height: 95%;
 }
