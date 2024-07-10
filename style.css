@@ -5,6 +5,7 @@
   border-width: 0;
   border-style: solid;
   border-color: #e5e7eb;
+  overflow: hidden;
 }
 
 :before,
@@ -674,4 +675,11 @@ p {
   align-items: center !important;
   justify-content: center !important;
   height: 95% !important;
+}
+
+@media screen and (max-width: 600px) {
+  .hm {
+    visibility: hidden;
+    display: none;
+  }
 }
